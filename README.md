@@ -1,2 +1,1 @@
-"# JFoenixTest" 
-"# JFoenixTest" 
+# JFoenixTest
