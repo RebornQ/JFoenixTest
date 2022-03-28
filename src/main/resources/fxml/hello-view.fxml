@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import com.jfoenix.controls.JFXChipView?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.jfoenixtest.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <HBox maxHeight="40.0" spacing="5" StackPane.alignment="TOP_LEFT">
+        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" text="产品:" />
+        <StackPane maxHeight="40.0" prefWidth="300">
+            <JFXChipView fx:id="productChipView" />
+        </StackPane>
+<!--        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" text="应用:" />-->
+<!--        <StackPane maxHeight="40.0" prefWidth="300">-->
+<!--            <JFXChipView fx:id="appChipView" />-->
+<!--        </StackPane>-->
+<!--        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" text="联运商:" />-->
+<!--        <StackPane maxHeight="40.0" prefWidth="300">-->
+<!--            <JFXChipView fx:id="partnerChipView" />-->
+<!--        </StackPane>-->
+        <Button fx:id="btSearch" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#onSearchButtonClick" prefHeight="30.0" text="查询">
+            <HBox.margin>
+                <Insets top="5.0" />
+            </HBox.margin></Button>
+
+        <StackPane.margin>
+            <Insets top="35.0" />
+        </StackPane.margin>
+    </HBox>
+</VBox>

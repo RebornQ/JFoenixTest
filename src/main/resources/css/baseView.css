@@ -1,0 +1,100 @@
+/**
+ * pagination
+ */
+.pagination {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+}
+
+.pagination .content {
+    -fx-background-color: transparent;
+}
+
+.pagination:focused {
+    -fx-background-color: transparent;
+}
+
+/**
+ * table-view
+ */
+.table-row-cell {
+    -fx-alignment: center;
+}
+
+.table-column {
+    -fx-alignment: center;
+}
+
+.table-view:focused {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: #cccccc;
+}
+/**
+ * text-field
+ */
+.text-field:focused {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: darkgrey;
+}
+
+/**
+ * text-area
+ */
+/*.text-area {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, #cccccc , transparent, #cccccc;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, #cccccc, transparent, #cccccc;
+}
+
+.text-area:focused {
+    -fx-background-color: transparent, #cccccc, transparent, #cccccc;
+}*/
+
+/**
+ * jfx-chip-view
+ */
+.jfx-chip-view {
+    -fx-background-color: WHITE;
+    -fx-padding: 0;
+    -fx-background-radius: 10px;
+}
+
+.jfx-chip-view .chips-pane > .text-area {
+    -fx-padding: 8 0 0 0;
+    -fx-min-width: 100px;
+    -fx-pref-height: 42;
+}
+
+.jfx-chip-view .jfx-chip > HBox {
+    -fx-font-size: 10;
+    -fx-pref-height: 12px;
+    -fx-padding: 3px 5px 3px 8px;
+    -fx-spacing: 4;
+}
+
+.jfx-chip-view .chips-pane .jfx-chip .chip-icon {
+    -jfx-size: 12;
+    -fx-background-color: #3f51b5;
+}
+
+.jfx-chip-view .chips-pane .jfx-chip .heart {
+    -jfx-size: 12;
+    -fx-background-color: #D34336;
+}
+
+.jfx-chips-popup {
+    -jfx-cell-limit: 8;
+}
+
+.jfx-chips-popup .autocomplete-list {
+    -fx-fixed-cell-size: 12;
+    -fx-background-insets: 0.0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.26), 5, 0.06, -1, 2);
+}
+
+.jfx-chips-popup .autocomplete-list .jfx-list-cell {
+    -fx-text-fill: rgba(0, 0, 0, .87);
+}
